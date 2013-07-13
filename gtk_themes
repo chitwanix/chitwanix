@@ -1,0 +1,10 @@
+edit gtk_theme in :-  /usr/share/gconf/schemas/desktop_gnome_interface.schemas
+
+or 
+
+enter this in chroot:-
+# Change the metacity theme (window borders)
+gconftool-2 --type=string -s /apps/metacity/general/theme themename
+
+# Change the GTK theme (controls)
+gconftool-2 --type=string -s /desktop/gnome/interface/gtk_theme themename
