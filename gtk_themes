@@ -15,3 +15,8 @@ gconftool-2 --type=string -s /desktop/gnome/interface/gtk_theme themename
 
 /etc/gconf/gconf.xml.defaults/%gconf-tree.xml
 
+
+*********************also try this:-
+
+
+gsettings set org.gnome.shell.extensions.user-theme name "Adwaita Sky"`
