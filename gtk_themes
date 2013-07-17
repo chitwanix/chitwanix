@@ -20,3 +20,8 @@ gconftool-2 --type=string -s /desktop/gnome/interface/gtk_theme themename
 
 
 gsettings set org.gnome.shell.extensions.user-theme name "Adwaita Sky"`
+
+
+
+
+paste the user file in skel/.config/dconf/ 
