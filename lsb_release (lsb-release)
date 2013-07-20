@@ -1,0 +1,4 @@
+rename /usr/lib/linuxmint/mintSystem/mint-adjust.py to mint-adjust.py.old 
+
+______________________________________
+then the lsb-release will be constant 
