@@ -1,2 +1,5 @@
 Screenlets 
 sudo apt-get install screenlets and add some widgets...
+
+
+copy .config .screenlets in the skel 
